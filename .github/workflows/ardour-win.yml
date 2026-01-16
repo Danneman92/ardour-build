@@ -1,6 +1,7 @@
 name: Ardour Cross Compile Build for Windows
 
 on:
+  workflow_dispatch:
   push:
     branches: 
       - win
